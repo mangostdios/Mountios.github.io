@@ -1,0 +1,17 @@
+/// Mountio Authors, Lisenced Under Mit Lisence. All Work is herby lisenced with creative commmons, most of our work and mostly is lisenced under MIT. All work Is UNder A LISENCE.
+
+ ::-moz-selection {
+  color: gold;
+  background: red;
+}
+
+::selection {
+  color: gold;
+  background: red;
+} 
+
+
+p::-moz-selection {
+  color: white;
+  background: blue;
+}
