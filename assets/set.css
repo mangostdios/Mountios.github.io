@@ -15,3 +15,8 @@ p::-moz-selection {
   color: white;
   background: blue;
 }
+
+p::selection {
+color: white;
+ background: blue;
+}
