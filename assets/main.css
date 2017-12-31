@@ -2,6 +2,10 @@ body {
   background: #e2e1e0;
   text-align: center;
 }
+a {
+color: black;
+  text-decoration: none;
+}
 
 .card {
   background: #fff;
