@@ -1,1 +1,22 @@
-Work in progress...
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mountio Services</title>
+  </head>
+  <body>
+    <div class="side-nav">
+      <button onclick="hideNav(1);showNav(0);">Websites</button><nav class="site-nav"></nav>
+      <button onclick="hideNav(0);showNav(1);">Gaming</button><nav class="game-nav"></nav>
+      
+      <script>
+        var datas = ["Work in progress","Work in progress"];
+        function showNav(node) {
+        document.getElementsByTagName("nav")[node].innerHTML = datas[node];
+        }
+         function hideNav(node) {
+        document.getElementsByTagName("nav")[node].innerHTML = "";
+        }
+      </script>
+    </div>
+  </body>
+</html>
