@@ -20,16 +20,16 @@
   </head>
   <body>
     <div class="side-nav">
-      <button onclick="hideNav(1);showNav(0);">Websites</button><nav class="site-nav"></nav>
-    <button onclick="hideNav(0);showNav(1);">Gaming</button><nav class="game-nav"></nav>
+      <button onclick="hideNav(1);showNav(0);">Websites</button><div class="site-nav"></div>
+    <button onclick="hideNav(0);showNav(1);">Gaming</button><div class="game-nav"></div>
       
       <script>
         var datas = ["WIP","WIP"];
         function showNav(node) {
-        document.getElementsByTagName("nav")[node].innerHTML = datas[node];
+        document.getElementsByTagName("div")[node+1].innerHTML = datas[node];
         }
          function hideNav(node) {
-        document.getElementsByTagName("nav")[node].innerHTML = "";
+        document.getElementsByTagName("div")[node+1].innerHTML = "";
         }
       </script>
     </div>
