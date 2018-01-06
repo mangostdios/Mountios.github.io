@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Mountio Services</title>
-    <style>
-    .side-nav {
-      background-color: green;
-      width: 500px;
-      }
-     .game-nav {
-      width: 100px;
-       background-color: blue;
-      }
-      .site-nav {
-       width: 100px;
-        background-color: blue;
-      }
+
     
-    </style>
-  </head>
-  <body>
-    <div class="side-nav">
+
+<!DOCTYPE html>
+<head>
+	<title>Mountio</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"></link>
+
+  <!-- Compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"> </script>	
+
+          <link rel="stylesheet" href="assets/main.css"></link>
+</head>
+<body>
+
+   <div class="side-nav">
       <button onclick="hideNav(1);showNav(0);">Websites</button><div class="site-nav"></div>
     <button onclick="hideNav(0);showNav(1);">Gaming</button><div class="game-nav"></div>
       
@@ -32,6 +29,33 @@
         document.getElementsByTagName("div")[node+1].innerHTML = "";
         }
       </script>
-    </div>
-  </body>
+
+	
+         <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">mountio </h5>
+                <p class="grey-text text-lighten-4">Mountios</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="FAQ.md">FAQ</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://mountio.github.io/GHStatus/">GH status</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://mountio.github.io/Mintio/">Mintio</a></li>
+                  <li><a class="grey-text text-lighten-3" href="Ourteam.html">Our Team</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017-2018 Mountio Software And More 
+            <a class="grey-text text-lighten-4 right" href="#">Get Back To The Top</a>
+            </div>
+          </div>
+        </footer>     
+	
+</body>
 </html>
