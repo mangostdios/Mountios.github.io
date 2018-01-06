@@ -1,0 +1,28 @@
+Available functions:
+ExtensionConfig::add_page($url,$details);
+ExtensionConfig::add_admin_menu($title,$url,$mod = false);
+ExtensionConfig::remove_page($url);
+
+Files:
+info.php:
+<?php
+$ext_info = array(
+	'title'	=> 'YOUR TITLE HERE'
+),
+
+database.php:
+just write the code in
+
+/files/ directory:
+everything to upload
+
+changes.php:
+<?php
+$changes = array(
+	0 => array
+		'file'	=> '/app_resources/whatever.php',
+		'type'	=> 'add|replace',
+		'find'	=>	array('line1', 'line2'),
+		'change'=> 'what to add or replace'
+	)
+);
