@@ -1,10 +1,6 @@
 # Mountio
 [Offical Org](https://github.com/mountio/)
 
+Mountio is a versatile web company for making many dreams come true; as we come together, we celebrate our will to make everything.
 
-Mountio is a versatile Web Company for making mnay dreams come true, as we come tgether, we celbrate our will to make everything.
-
-
-A rich programming, and a great webserver,open-source and Hosted on github interfaces.
-
-
+Rich programming and a great open-source webserver hosted on Github interfaces.
